@@ -1,0 +1,26 @@
+{
+  "name": "校园通 CampusKit",
+  "short_name": "校园通",
+  "description": "课表 · 空闲教室 · 失物招领 · 校园问答，同一套界面手机与电脑通用。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "campushub-campuskit",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#f5f6fb",
+  "theme_color": "#4f46e5",
+  "categories": ["education", "productivity", "utilities"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "空闲教室", "short_name": "教室", "url": "./index.html#/tt/rooms" },
+    { "name": "失物招领", "short_name": "失物", "url": "./index.html#/lost" },
+    { "name": "智能匹配", "short_name": "匹配", "url": "./index.html#/lost/match" },
+    { "name": "校园通讯录", "short_name": "通讯录", "url": "./index.html#/qa/contacts" }
+  ]
+}

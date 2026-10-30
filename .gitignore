@@ -1,0 +1,35 @@
+# ── 构建工具链与下载缓存（构建脚本会自动重新获取） ──
+_dl/
+_sdk/
+build/
+__pycache__/
+*.pyc
+node_modules/
+
+# ── 自动生成 ──
+android/assets/
+
+# ── 构建产物 ──
+*.apk
+*.idsig
+*.exe
+*.dll
+*.zip
+dist/
+
+# ── 临时与备份 ──
+*.bak
+*.tmp
+*.log
+.dsh-office-*/
+
+# ── 系统 ──
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ── android/_test：编译产物与运行时日志（原交接文档未覆盖，此处补充） ──
+*.class
+android/_test/out/
+android/_test/err.txt
+android/_test/out.txt
